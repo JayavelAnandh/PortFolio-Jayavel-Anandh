@@ -276,6 +276,7 @@ p {
     margin-bottom: 10px;
     padding: 50px;
     transition: all 0.5s;
+
 }
 
 .service-item:hover {
@@ -338,6 +339,7 @@ figure.project-display {
     text-align: center;
     -webkit-perspective: 50em;
     perspective: 50em;
+
 }
 
 figure.project-display * {
@@ -380,6 +382,8 @@ figure.project-display i {
     text-align: center;
     border-radius: 10px;
 }
+
+
 
 figure.project-display:after {
     background-color: #ffffff;
@@ -425,7 +429,9 @@ figure.project-display.hover:after {
     opacity: 0.9;
 }
 
-
+.imageProjects {
+    height: 30vh;
+}
 
 /* media query for all screenSizes*/
 @media screen and (max-width: 1680px) {
@@ -469,7 +475,13 @@ figure.project-display.hover:after {
     .menu {
         width: 25%;
     }
+
+    .imageProjects {
+        height: 26vh;
+    }
+
 }
+
 
 #menu-toggle,
 #menu-close {
