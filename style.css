@@ -575,13 +575,13 @@ figure.project-display.hover:after {
 [data-title]:after {
     content: attr(data-title);
     background-color: #8c363e;
-    ;
     color: white;
     font-size: 100%;
+    font-weight: 600;
     font-family: cursive;
     position: absolute;
     padding: 1px 5px 2px 5px;
-    bottom: -1.6em;
+    bottom: -2.6em;
     left: 100%;
     white-space: nowrap;
     box-shadow: 1px 1px 3px #222222;
